@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>LevelUp.Serializer.MsgPackCli</id>
+    <version>1.0.0</version>
+    <title>LevelUp.Serializer.MsgPackCli</title>
+    <authors>Larry Nung</authors>
+    <owners>Larry Nung</owners>
+    <description>Let LevelUp.Serializer support MsgPack</description>
+    <copyright>Copyright 2017</copyright>
+	<dependencies>
+		<dependency id="LevelUp.Serializer" version="1.0.0.5367" />
+		<dependency id="MsgPack.Cli" version="0.8.1" />
+	</dependencies>
+  </metadata>
+</package>
