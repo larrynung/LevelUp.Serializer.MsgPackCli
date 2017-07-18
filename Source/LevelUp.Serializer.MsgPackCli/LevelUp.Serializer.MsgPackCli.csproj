@@ -9,9 +9,10 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>LevelUp.Serializer.MsgPackCli</RootNamespace>
     <AssemblyName>LevelUp.Serializer.MsgPackCli</AssemblyName>
-    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <BaseIntermediateOutputPath>..\..\Obj\</BaseIntermediateOutputPath>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -31,12 +32,12 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="LevelUp.Serializer, Version=1.0.0.5367, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\LevelUp.Serializer.1.0.0.5367\lib\net45\LevelUp.Serializer.dll</HintPath>
+    <Reference Include="LevelUp.Serializer">
+      <HintPath>..\..\Lib\LevelUp.Serializer.1.0.0.5367\lib\net45\LevelUp.Serializer.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="MsgPack, Version=0.8.0.0, Culture=neutral, PublicKeyToken=a2625990d5dc0167, processorArchitecture=MSIL">
-      <HintPath>..\packages\MsgPack.Cli.0.8.1\lib\net46\MsgPack.dll</HintPath>
+    <Reference Include="MsgPack">
+      <HintPath>..\..\Lib\MsgPack.Cli.0.8.1\lib\net45\MsgPack.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="System" />
@@ -55,7 +56,6 @@
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
-  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
